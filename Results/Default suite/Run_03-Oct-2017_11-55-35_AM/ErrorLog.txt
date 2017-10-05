@@ -1,0 +1,13 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Started InternetExplorerDriver server (64-bit)
+3.6.0.0
+Listening on port 27722
+Only local connections are allowed
+Oct 03, 2017 11:55:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Oct 03, 2017 11:55:40 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to original OSS JSON Wire Protocol.
+Oct 03, 2017 11:55:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Falling back to straight W3C remote end connection

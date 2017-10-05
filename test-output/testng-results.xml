@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="NewApplicationTestScripts" duration-ms="10443" started-at="2017-10-05T14:37:29Z" finished-at="2017-10-05T14:37:39Z">
+    <groups>
+    </groups>
+    <test name="TestSuite1" duration-ms="10443" started-at="2017-10-05T14:37:29Z" finished-at="2017-10-05T14:37:39Z">
+      <class name="testscripts.NewApplication.TC_NewApplication_Login">
+        <test-method status="PASS" signature="setUpTestRunner()[pri:0, instance:testscripts.NewApplication.TC_NewApplication_Login@cb644e]" name="setUpTestRunner" is-config="true" duration-ms="1" started-at="2017-10-05T09:37:29Z" finished-at="2017-10-05T09:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestRunner -->
+        <test-method status="PASS" signature="runTC_NewApplication_Login(java.lang.String, com.cognizant.framework.selenium.ExecutionMode, org.openqa.selenium.Platform)[pri:0, instance:testscripts.NewApplication.TC_NewApplication_Login@cb644e]" name="runTC_NewApplication_Login" duration-ms="10409" started-at="2017-10-05T09:37:29Z" data-provider="RegressionTestScripts" finished-at="2017-10-05T09:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Instance1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LOCAL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTC_NewApplication_Login -->
+      </class> <!-- testscripts.NewApplication.TC_NewApplication_Login -->
+      <class name="testscripts.NewApplication.TC_NewApplication_HomePageValidation">
+        <test-method status="PASS" signature="setUpTestSuite(org.testng.ITestContext)[pri:0, instance:testscripts.NewApplication.TC_NewApplication_HomePageValidation@5cb9f472]" name="setUpTestSuite" is-config="true" duration-ms="85" started-at="2017-10-05T09:37:29Z" finished-at="2017-10-05T09:37:29Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@78e67e0a]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestSuite -->
+        <test-method status="PASS" signature="setUpTestRunner()[pri:0, instance:testscripts.NewApplication.TC_NewApplication_HomePageValidation@5cb9f472]" name="setUpTestRunner" is-config="true" duration-ms="1" started-at="2017-10-05T09:37:29Z" finished-at="2017-10-05T09:37:29Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestRunner -->
+        <test-method status="PASS" signature="runTC_NewApplication_HomePageValidation(java.lang.String, com.cognizant.framework.selenium.ExecutionMode, org.openqa.selenium.Platform)[pri:0, instance:testscripts.NewApplication.TC_NewApplication_HomePageValidation@5cb9f472]" name="runTC_NewApplication_HomePageValidation" duration-ms="10223" started-at="2017-10-05T09:37:29Z" data-provider="RegressionTestScripts" finished-at="2017-10-05T09:37:39Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Instance1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LOCAL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[WINDOWS]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runTC_NewApplication_HomePageValidation -->
+        <test-method status="PASS" signature="tearDownTestSuite()[pri:0, instance:testscripts.NewApplication.TC_NewApplication_HomePageValidation@5cb9f472]" name="tearDownTestSuite" is-config="true" duration-ms="18" started-at="2017-10-05T09:37:39Z" finished-at="2017-10-05T09:37:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestSuite -->
+      </class> <!-- testscripts.NewApplication.TC_NewApplication_HomePageValidation -->
+    </test> <!-- TestSuite1 -->
+  </suite> <!-- NewApplicationTestScripts -->
+</testng-results>

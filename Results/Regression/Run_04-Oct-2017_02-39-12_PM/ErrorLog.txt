@@ -1,0 +1,139 @@
+SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 29009
+Only local connections are allowed.
+Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 19541
+Only local connections are allowed.
+Oct 04, 2017 2:41:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Oct 04, 2017 2:41:14 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Oct 04, 2017 2:41:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 04, 2017 2:41:16 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+java.io.FileNotFoundException: C:\Selenium_Eclipse_Workspace\CICD_Pipeline_Jenkins\src\test\resources\Datatables\SF.RegressionTestScriptsOpp.xls (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.cognizant.framework.ExcelDataAccess.openFileForReading(ExcelDataAccess.java:83)
+	at com.cognizant.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:156)
+	at com.cognizant.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:231)
+	at com.cognizant.Craft.DriverScript.initializeBusinessFlow(DriverScript.java:556)
+	at com.cognizant.Craft.DriverScript.initializeTestScript(DriverScript.java:544)
+	at com.cognizant.Craft.DriverScript.executeCraft(DriverScript.java:156)
+	at com.cognizant.Craft.DriverScript.driveTestExecution(DriverScript.java:150)
+	at runners.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.io.FileNotFoundException: C:\Selenium_Eclipse_Workspace\CICD_Pipeline_Jenkins\src\test\resources\Datatables\SF.RegressionTestScriptsOpp.xls (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.cognizant.framework.ExcelDataAccess.openFileForReading(ExcelDataAccess.java:83)
+	at com.cognizant.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:156)
+	at com.cognizant.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:231)
+	at com.cognizant.Craft.DriverScript.initializeBusinessFlow(DriverScript.java:556)
+	at com.cognizant.Craft.DriverScript.initializeTestScript(DriverScript.java:544)
+	at com.cognizant.Craft.DriverScript.executeCraft(DriverScript.java:156)
+	at com.cognizant.Craft.DriverScript.driveTestExecution(DriverScript.java:150)
+	at runners.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 14710
+Only local connections are allowed.
+Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 28866
+Only local connections are allowed.
+Oct 04, 2017 2:41:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Oct 04, 2017 2:41:18 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Oct 04, 2017 2:41:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 04, 2017 2:41:20 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+java.io.FileNotFoundException: C:\Selenium_Eclipse_Workspace\CICD_Pipeline_Jenkins\src\test\resources\Datatables\SF.RegressionTestScriptsOpp.xls (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.cognizant.framework.ExcelDataAccess.openFileForReading(ExcelDataAccess.java:83)
+	at com.cognizant.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:156)
+	at com.cognizant.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:231)
+	at com.cognizant.Craft.DriverScript.initializeBusinessFlow(DriverScript.java:556)
+	at com.cognizant.Craft.DriverScript.initializeTestScript(DriverScript.java:544)
+	at com.cognizant.Craft.DriverScript.executeCraft(DriverScript.java:156)
+	at com.cognizant.Craft.DriverScript.driveTestExecution(DriverScript.java:150)
+	at runners.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.io.FileNotFoundException: C:\Selenium_Eclipse_Workspace\CICD_Pipeline_Jenkins\src\test\resources\Datatables\SF.RegressionTestScriptsOpp.xls (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.cognizant.framework.ExcelDataAccess.openFileForReading(ExcelDataAccess.java:83)
+	at com.cognizant.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:156)
+	at com.cognizant.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:231)
+	at com.cognizant.Craft.DriverScript.initializeBusinessFlow(DriverScript.java:556)
+	at com.cognizant.Craft.DriverScript.initializeTestScript(DriverScript.java:544)
+	at com.cognizant.Craft.DriverScript.executeCraft(DriverScript.java:156)
+	at com.cognizant.Craft.DriverScript.driveTestExecution(DriverScript.java:150)
+	at runners.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 38837
+Only local connections are allowed.
+Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 13684
+Only local connections are allowed.
+Oct 04, 2017 2:41:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Oct 04, 2017 2:41:22 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Oct 04, 2017 2:41:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+Oct 04, 2017 2:41:24 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+java.io.FileNotFoundException: C:\Selenium_Eclipse_Workspace\CICD_Pipeline_Jenkins\src\test\resources\Datatables\SF.RegressionTestScriptsOpp.xls (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.cognizant.framework.ExcelDataAccess.openFileForReading(ExcelDataAccess.java:83)
+	at com.cognizant.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:156)
+	at com.cognizant.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:231)
+	at com.cognizant.Craft.DriverScript.initializeBusinessFlow(DriverScript.java:556)
+	at com.cognizant.Craft.DriverScript.initializeTestScript(DriverScript.java:544)
+	at com.cognizant.Craft.DriverScript.executeCraft(DriverScript.java:156)
+	at com.cognizant.Craft.DriverScript.driveTestExecution(DriverScript.java:150)
+	at runners.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+java.io.FileNotFoundException: C:\Selenium_Eclipse_Workspace\CICD_Pipeline_Jenkins\src\test\resources\Datatables\SF.RegressionTestScriptsOpp.xls (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.cognizant.framework.ExcelDataAccess.openFileForReading(ExcelDataAccess.java:83)
+	at com.cognizant.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:156)
+	at com.cognizant.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:231)
+	at com.cognizant.Craft.DriverScript.initializeBusinessFlow(DriverScript.java:556)
+	at com.cognizant.Craft.DriverScript.initializeTestScript(DriverScript.java:544)
+	at com.cognizant.Craft.DriverScript.executeCraft(DriverScript.java:156)
+	at com.cognizant.Craft.DriverScript.driveTestExecution(DriverScript.java:150)
+	at runners.ParallelRunner.run(ParallelRunner.java:48)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 44379
+Only local connections are allowed.
+Starting ChromeDriver 2.33.506120 (e3e53437346286c0bc2d2dc9aa4915ba81d9023f) on port 22641
+Only local connections are allowed.
