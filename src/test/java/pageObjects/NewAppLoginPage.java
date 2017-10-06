@@ -3,6 +3,7 @@ package pageObjects;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 import com.cognizant.Craft.ReusableLibrary;
 import com.cognizant.Craft.ScriptHelper;
@@ -34,8 +35,8 @@ public class NewAppLoginPage extends ReusableLibrary{
 //	CraftDataTable dataTable = new CraftDataTable("src/test/resources","NewApp_TestData.xls");
 
 	public void invokeApplication() {
-//		driver.get(properties.getProperty("URL"));	
 		driver.get(dataTable.getData("General_Data", "URL"));
+		Assert.assertTrue(Utility_Functions.xWaitForElementVisible(driver, txt_userName, 10), "Application not invoked, Login screen not displayed");
 		System.out.println("Application invoked");
 	}
 
