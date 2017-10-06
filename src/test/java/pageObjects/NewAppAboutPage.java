@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 import com.cognizant.Craft.ReusableLibrary;
 import com.cognizant.Craft.ScriptHelper;
 
-
+import org.testng.Assert;
 import supportLibraries.Utility_Functions;
 
 //Page object class for the Login page
@@ -27,8 +27,9 @@ public class NewAppAboutPage extends ReusableLibrary{
 	WebElement VERSION;
 	
 	public void verifyHeaderIsDisplayed(){
-		Utility_Functions.xWaitForElementPresent(driver, HEADER_CBRE1, 10);
-		System.out.println("Header displayed");
+		
+		Assert.assertTrue(Utility_Functions.xWaitForElementVisible(driver, HEADER_CBRE1, 10), "Header not displayed");
+		System.out.println("Header displayed on the ABOUT page.");
 	}
 	
 }
